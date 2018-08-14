@@ -57,7 +57,7 @@ public class ProjectControllerTest {
     }
 
     @Test
-    public void testGet() {
+    public void testGet() throws InterruptedException {
         ProjectRecord record = testProjectRecordBuilder().id(99).build();
         doReturn(record).when(gateway).find(anyLong());
 
@@ -70,7 +70,7 @@ public class ProjectControllerTest {
     }
 
     @Test
-    public void testGet_WithNull() {
+    public void testGet_WithNull() throws InterruptedException {
         doReturn(null).when(gateway).find(anyLong());
 
         ProjectInfo result = controller.get(88);
