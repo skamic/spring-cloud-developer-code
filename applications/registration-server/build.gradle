@@ -4,4 +4,6 @@ dependencies {
     compile project(":components:accounts")
     compile project(":components:projects")
     compile project(":components:users")
+    
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth"
 }
