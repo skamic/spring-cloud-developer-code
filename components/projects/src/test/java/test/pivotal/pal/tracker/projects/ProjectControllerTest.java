@@ -21,7 +21,7 @@ import static test.pivotal.pal.tracker.projects.TestBuilders.*;
 public class ProjectControllerTest {
 
     private ProjectDataGateway gateway = mock(ProjectDataGateway.class);
-    private ProjectController controller = new ProjectController(gateway);
+    private ProjectController controller = new ProjectController(gateway, 1000);
 
     @Test
     public void testCreate() {

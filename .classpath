@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="applications/registration-server/src/main/java"/>
+	<classpathentry kind="src" path="applications/registration-server/src/test/java"/>
+	<classpathentry kind="src" path="applications/timesheets-server/src/main/java"/>
+	<classpathentry kind="src" path="applications/timesheets-server/src/test/java"/>
+	<classpathentry kind="src" path="components/accounts/src/main/java"/>
+	<classpathentry kind="src" path="components/accounts/src/test/java"/>
+	<classpathentry kind="src" path="components/projects/src/main/java"/>
+	<classpathentry kind="src" path="components/projects/src/test/java"/>
+	<classpathentry kind="src" path="components/rest-support/src/main/java"/>
+	<classpathentry kind="src" path="components/timesheets/src/main/java"/>
+	<classpathentry kind="src" path="components/timesheets/src/test/java"/>
+	<classpathentry kind="src" path="components/users/src/main/java"/>
+	<classpathentry kind="src" path="components/users/src/test/java"/>
+	<classpathentry kind="lib" path="components/accounts/build/libs/accounts.jar"/>
+	<classpathentry kind="lib" path="components/projects/build/libs/projects.jar"/>
+	<classpathentry kind="lib" path="components/rest-support/build/libs/rest-support.jar"/>
+	<classpathentry kind="lib" path="components/timesheets/build/libs/timesheets.jar"/>
+	<classpathentry kind="lib" path="components/users/build/libs/users.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="applications/registration-server/build/classes/java/main"/>
+</classpath>

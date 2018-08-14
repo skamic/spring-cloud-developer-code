@@ -1,4 +1,4 @@
-rootProject.name = "pal-tracker-distributed"
+rootProject.name = "spring-cloud-developer-code"
 
 include "applications:registration-server"
 include "applications:timesheets-server"
